@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/login"
+            android:textColor="#FFEB3B"
+            android:textSize="40dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txt_tk"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/txt_tk"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_tk"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:hint="@string/edit_tk" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txt_mk"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/txt_mk"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_mk"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:hint="@string/edit_mk" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:text="@string/login"
+            android:textColor="#ea0e0e  "
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

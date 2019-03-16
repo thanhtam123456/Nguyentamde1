@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Nguyentamde1</string>
+    <string name="txt_tk">User and Email</string>
+    <string name="edit_tk"></string>
+    <string name="edit_mk"></string>
+    <string name="txt_mk">Password</string>
+    <string name="login">login</string>
+    <string name="danhsack"> Danh sách các môn học</string>
+    <string name="tenmon">Tên  môn học</string>
+
+    <string name="mamon">Mã  môn học</string>
+
+    <string name="sotin">Số tín chỈ</string>
+    </resources>
